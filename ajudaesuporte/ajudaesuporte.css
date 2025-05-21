@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #02142b; 
+    color: white; 
+  }
+  
+  .navbar {
+    background-color: #00071c !important;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .offcanvas {
+    background-color: #00071c !important;
+    color: white !important;
+  }
+  
+  .offcanvas-title {
+    color: white !important;
+  }
+  
+  .offcanvas-body {
+    color: white !important;
+  }
+  
+  .offcanvas form input {
+    background-color: #cccccc;
+    color: #000000;
+  }
+  
+  .offcanvas form .btn-outline-success {
+    border-color: rgb(28, 13, 161);
+    color: rgb(11, 11, 73);
+  }
+  
+  .offcanvas form .btn-outline-success:hover,
+  .offcanvas form .btn-outline-success:active,
+  .offcanvas form .btn-outline-success:focus {
+    background-color: rgb(28, 13, 161);
+    color: white;
+    border-color: rgb(28, 13, 161);
+    box-shadow: none; 
+  }
+  
+  .nav-link.biblioteca-link .biblioteca-icon {
+    color: white; 
+    fill: white;
+    transition: color 0.3s ease, fill 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .nav-link.biblioteca-link:hover .biblioteca-icon {
+    color: white;
+    fill: white;
+    transform: scale(1.1); 
+  }
+  
+  .nav-link.biblioteca-link:hover {
+    color: white !important; 
+    transform: scale(1.05); 
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .offcanvas .btn-close {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    filter: invert(100%);
+  }
+  
+  .offcanvas form .btn {
+    border-color:#00071c;
+    color: blue;
+  }
+  
+  .offcanvas form .btn:active,
+  .offcanvas form .btn:focus {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    box-shadow: none !important; 
+  }
+  
+  .offcanvas form button[type="submit"] {
+    background-color: #1f030338;
+    border-color: blue;
+    color: blue;
+  }
+  
+  .offcanvas form button[type="submit"]:active,
+  .offcanvas form button[type="submit"]:focus {
+    color: white;
+    border-color: blue;
+    box-shadow: none !important; 
+  }
+  
+  main {
+    background-color: #02142b;
+    color: white;
+    padding: 60px 15px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px 15px 10px;
+    text-align: center; 
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px; 
+  }
+  
+  .footer-links h5 {
+    color: #00aaff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-separator {
+    border-top: 1px solid rgba(255, 255, 255, 0.233); 
+    margin: 20px 0;  
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+  }
+  
+  
+  
+  .footer-legal {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-legal a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .bg-black {
+    background-color: black;
+    height: 1px;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    footer {
+      text-align: center;
+    }
+  }
+  
+    .footer-links {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px; /* Aumenta um pouco o espaço abaixo dos links */
+    }
+  
+    .footer-links ul {
+      margin-bottom: 0;
+    }
+  
+    .footer-separator {
+      margin: 30px 0; 
+    }
+  
+    .footer-bottom {
+      font-size: 0.9rem;
+      text-align: center; /* Garante que o conteúdo fique centralizado */
+      padding-top: 5px;
+    }
+    
+    .footer-bottom p {
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  
+    
